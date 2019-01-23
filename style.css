@@ -1,0 +1,47 @@
+html,body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow:hidden;
+}
+
+.slide {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+}
+
+.card {
+    width:100%;
+    height:100vh;
+    display: flex;
+    background:#FFFFFF;
+}
+
+.card-img {
+    background-position: center;
+    width:50%;
+    height:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#img01 {
+    background-image: url('1.jpg');
+}
+
+#img01 {
+    background-image: url('2.jpg');
+}
+
+#img01 {
+    background-image: url('3.jpg');
+}
