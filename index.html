@@ -1,50 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
     <title>Content Slider</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="slide active">
-        <div class="card">
-            <div class="card-img" id="img01"></div>
-            <div class="card-content">
-                <p class="card-theme">Travel</p>
-                <h2 class="card-header">Magnificent</h2>
-                <p class="card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iure veniam optio, excepturi vel magnam voluptates ullam nisi magni delectus!</p>
-                <a class="card-link">Read</a>
-            </div>
+      <div class="card">
+        <div class="card-img" id="img01"></div>
+        <div class="card-content">
+          <p class="card-theme">Travel</p>
+          <h2 class="card-header">Magnificent</h2>
+          <p class="card-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iure
+            veniam optio, excepturi vel magnam voluptates ullam nisi magni
+            delectus!
+          </p>
+          <a class="card-link">Read</a>
         </div>
+      </div>
     </div>
     <div class="slide">
-        <div class="card">
-            <div class="card-img" id="img02"></div>
-            <div class="card-content">
-                <p class="card-theme">Travel</p>
-                <h2 class="card-header">Amazing</h2>
-                <p class="card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iure veniam optio, excepturi vel magnam voluptates ullam nisi magni delectus!</p>
-                <a class="card-link">Read</a>
-            </div>
+      <div class="card">
+        <div class="card-img" id="img02"></div>
+        <div class="card-content">
+          <p class="card-theme">Travel</p>
+          <h2 class="card-header">Amazing</h2>
+          <p class="card-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iure
+            veniam optio, excepturi vel magnam voluptates ullam nisi magni
+            delectus!
+          </p>
+          <a class="card-link">Read</a>
         </div>
+      </div>
     </div>
     <div class="slide">
-        <div class="card">
-            <div class="card-img" id="img03"></div>
-            <div class="card-content">
-                <p class="card-theme">Travel</p>
-                <h2 class="card-header">Fantastic</h2>
-                <p class="card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iure veniam optio, excepturi vel magnam voluptates ullam nisi magni delectus!</p>
-                <a class="card-link">Read</a>
-            </div>
+      <div class="card">
+        <div class="card-img" id="img03"></div>
+        <div class="card-content">
+          <p class="card-theme">Travel</p>
+          <h2 class="card-header">Fantastic</h2>
+          <p class="card-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iure
+            veniam optio, excepturi vel magnam voluptates ullam nisi magni
+            delectus!
+          </p>
+          <a class="card-link">Read</a>
         </div>
+      </div>
     </div>
     <div class="prevnext">
-        <button class="pn-btn" id="prev"></button>
-        <button class="pn-btn" id="next"></button>
+      <button class="pn-btn" id="prev"></button>
+      <button class="pn-btn" id="next"></button>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
